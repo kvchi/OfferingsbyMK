@@ -18,21 +18,21 @@ export default function About() {
           <BsEyeglasses className='text-[60px] text-slate-600 dark:text-primary'/>
               <h1 className='text-3xl text-slate-600 dark:text-primary underline underline-offset-4 mt-[-16px]'>Our Vision</h1>
           </div>
-          <aside className='flex justify-center mt-10'>
+          <aside className='flex flex-col md:flex-row justify-center mt-10'>
               <img src={scentedCandles} alt="" className='w-full sm:w-[200px] md:w-[500px] object-cover'/>
               <div className='w-full sm:w-[450px] md:w-[700px] dark:bg-slate-700 bg-secondary relative'>
                 <img src={scentedCandles} alt=""  className='opacity-30 absolute inset-0 w-full h-full'/>
-                <p className='text-center md:mt-20 max-w-lg mx-auto md:border-[2px] border-white rounded-lg p-4 md:text-xl text-slate-600 dark:text-primary font-semibold relative'>Our vision is to enrich lives with quality products that foster tranquility and well-being. We aim to be the leading source of unique, soul-soothing items that enhance everyday moments and inspire inner peace.</p>
+                <p className='text-center md:mt-20 md:max-w-lg mx-auto md:border-[2px] border-white rounded-lg p-4 md:text-xl text-slate-600 dark:text-primary font-semibold relative'>Our vision is to enrich lives with quality products that foster tranquility and well-being. We aim to be the leading source of unique, soul-soothing items that enhance everyday moments and inspire inner peace.</p>
               </div>
           </aside>
       </section>
       <section className='py-20 container mx-auto flex'>
-  <aside className='h-[200px] w-full bg-gray-800 flex items-center justify-between px-10'>
+  <aside className='h-[200px] w-full bg-gray-800 flex flex-col md:flex-row items-center justify-between px-10'>
     <div className='flex flex-col justify-center'>
       <h1 className='text-2xl font-bold text-primary'>NEW TO OFFERINGSBYMK?</h1>
       <h1 className='text-xl font-medium text-primary'>Subscribe to our newsletter to get updates on our latest offers!</h1>
     </div>
-    <div className='flex items-center'>
+    <div className='flex items-center mb-8'>
       <input
         type='email'
         placeholder='Enter your email'
