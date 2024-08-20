@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  html, body{
+    overflow-x: hidden;
+  }
+
+  .menu-enter {
+    transform: translateX(100%); /* Start off-screen */
+  }
+  
+  .menu-enter-active {
+    transform: translateX(0); /* Slide in to the screen */
+    transition: transform 0.3s ease-out;
+  }
