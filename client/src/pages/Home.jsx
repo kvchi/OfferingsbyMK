@@ -7,8 +7,7 @@ import "swiper/css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { BsArrowUpRightCircle } from "react-icons/bs";
-import { FaStar} from 'react-icons/fa'
-import { topProducts } from "../data/topProduct";
+
 import { incense, scentedCandles } from "../assets/images";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
@@ -16,7 +15,7 @@ import { MdOutlinePayments } from "react-icons/md";
 import { GiFoodTruck } from "react-icons/gi";
 import { testimonials } from "../data/testimonials";
 import Products from "../components/Products";
-import { Link } from "react-router-dom";
+
 import TopProducts from "../components/TopProducts";
 
 
@@ -40,7 +39,7 @@ export default function Home() {
 
   return (
     <main>
-      <section className="container mx-auto relative overflow-hidden bg-gray-100 dark:bg-gray-800 min-h-[550px]">
+      <section className="container mx-auto relative overflow-hidden bg-gray-100 dark:bg-gray-800 max-w-screen">
         <div className="absolute h-[600px] w-[600px] bg-primary rotate-45 rounded-3xl -top-full right-0 -z-9"></div>
         <aside className="flex md:flex-row-reverse flex-col mb-4 mt-2 md:mt-0 items-center justify-center">
           <Swiper key={23}

@@ -11,6 +11,7 @@ const initialState = {
     reducers: {
             addToCart(state,action){ 
                 const {productId, quantity} = action.payload;
+                console.log({payload:action.payload})
                 const indexProductId = (state.items).findIndex(item => item.productId === productId);
                 if(indexProductId >= 0) {
                     state.items[indexProductId].quantity += quantity;

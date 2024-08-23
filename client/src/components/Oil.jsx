@@ -20,7 +20,7 @@ export default function Oil() {
 
   return (
     <main className='rounded-b-xl'>
-            <div className='grid md:grid-cols-5 gap-12 justify-center items-center p-10 dark:bg-slate-800 '>
+            <div className='grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-12 justify-center items-center p-10 dark:bg-slate-800 '>
         {
             oilData.map((el) => (
                 <div key={el.id} className='hover:scale-105 duration-100 hover:shadow-lg dark:hover:shadow-2xl p-2 rounded-md cursor-pointer'>
